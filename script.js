@@ -1,4 +1,4 @@
 const tombolSapa = document.getElementById('sapaButton');
-tombolSapa.adEventListener('click', function() {
+tombolSapa.addEventListener('click', function() {
   alert('Halo! Terima kasih sudah berkunjung!');
 });
